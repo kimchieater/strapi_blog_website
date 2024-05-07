@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .container {
+    @apply mx-auto;
+    @apply xs:max-w-[475px];
+    @apply sm:max-w-[640px];
+    @apply md:max-w-[768px];
+    @apply lg:max-w-[1024px];
+    @apply xl:max-w-[1280px];
+    @apply 2xl:max-w-[1536px];
+  }
+}
+

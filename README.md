@@ -22,7 +22,8 @@ I'm thinking of creating this first so :
 
 I can get used to Clerk authentication system, and tailwind.
 
-TYPESCRIPT
+# TYPESCRIPT
+============
 
 I'm getting used to typescript.
 
@@ -60,4 +61,21 @@ you can also create your own type.
 ![alt text](image-7.png)
 
 You can also use it like class 
+
+
+
+# Tailwind
+============
+
+First I wanted to create an uitilty class for container.
+
+In order to do that I have used 
+
+![alt text](image-8.png)
+
+@layer and @apply in globals css file.
+
+![alt text](image-9.png)
+
+then I also set my custom theme.
 
