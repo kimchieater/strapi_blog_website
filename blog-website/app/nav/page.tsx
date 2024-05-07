@@ -12,7 +12,7 @@ export default function Nav(){
         <div>
           <h3 className="">Jason Codes</h3>
         </div>
-        <ul className="flex gap-5 ">
+        <ul className="flex gap-5">
           <li><a>Home</a></li>
           <li><a>Posts</a></li>
           <li><a>Contact</a></li>
