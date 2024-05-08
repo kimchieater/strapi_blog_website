@@ -14,3 +14,13 @@
   }
 }
 
+*{
+  line-height: 1.5;
+}
+
+.home-title{
+  font-size: 74px;
+  background: linear-gradient(to bottom, #946827, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}

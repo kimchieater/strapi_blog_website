@@ -1,20 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import Hero from "@/public/hero.avif";
-import HeroPic from "@/public/main-hero.png";
+import MainHero from "@/public/main-hero.png";
 
 export default function Home() {
   return (
 
-    <div className="home flex flex-col leading-5">
+    <div className="home flex flex-col">
 
       {/* Hero section  */}
-      <div className="mt-10 p-10 flex justify-center bg-stone-600 rounded-xl h-[400px]">
-        <div className="flex flex-col justify-center ">
-          <h1 className="text-2xl tracking-wide">Welcome to My Blog Website</h1>
+      <div className="mt-10 p-10 flex justify-center items-center bg-stone-600 rounded-xl h-[400px] bg-no-repeat bg-right-top shadow-stone-300/30 shadow-lg" style={{backgroundImage : `url( ${MainHero.src})`}}>
+        <div className="flex flex-col">
+          <h4 className="text-2xl tracking-wide">Welcome to My Blog Website</h4>
           <p className="tracking-tight">This is where I write my journey</p>
+          <h1 className="text-[3.5rem] home-title">JasonCodes</h1>
         </div>
-        
       </div>
 
       {/* Hero ends  */}
@@ -30,7 +30,7 @@ export default function Home() {
 
                 <div key={i} className="flex-auto flex flex-col items-center">
                   <div className="rotate-90">
-                    <Image src={Hero} alt="Hero image" width={200} className="rounded-xl shadow-indigo-200/30 shadow-md"></Image>
+                    <Image src={Hero} alt="Hero image" width={200} className="rounded-xl shadow-stone-300/30 shadow-lg"></Image>
                   </div>
                   {/* takes the elements */}
                   <p>{`title ${a}`}</p>
