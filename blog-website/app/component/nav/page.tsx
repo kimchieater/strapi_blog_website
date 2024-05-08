@@ -7,7 +7,7 @@ export default function Nav(){
   
   return(
     <div className="nav">
-      <nav className=" flex align-middle">
+      <nav className=" flex items-center">
         <div className="flex-1 flex justify-start">
           <h3><Link href="/">Jason Codes</Link></h3>
         </div>
@@ -16,7 +16,7 @@ export default function Nav(){
           <li><Link href='/contact'>Contact</Link></li>
         </ul>
         <ul className="flex-1 flex justify-end ">
-          <li><Link href="/login">log In</Link></li>
+          <Link href="/login"><li className="bg-[#835E28] p-2 rounded-xl hover:bg-[#775c34]">log In</li></Link>
         </ul>
       </nav>
 
