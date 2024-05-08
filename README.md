@@ -67,6 +67,10 @@ You can also use it like class
 # Tailwind
 ============
 
+### Creating a utility class
+=============================
+
+
 First I wanted to create an uitilty class for container.
 
 In order to do that I have used 
@@ -78,4 +82,49 @@ In order to do that I have used
 ![alt text](image-9.png)
 
 then I also set my custom theme.
+
+had a change of plan, instead of giving container class in nav bar, I gave it in 
+
+![alt text](image-11.png)
+
+### background
+
+I'm going to use the div that contains all the content and give a back ground color 
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+
+
+# NextJS 
+=========
+
+### Routing in next
+
+all you need to do for next js is to create a folder and name it.
+
+it is better practice to put use first class citizen for some reason (will find out more.)
+
+for dynamic routing 
+
+![alt text](image-10.png)
+
+You just have to put it like that.
+
+### choosing images
+
+importing it from public folder
+
+![alt text](image-14.png)
+
+then 
+
+
+# Strapi
+========
+
+# Clerk
+========
+
 
